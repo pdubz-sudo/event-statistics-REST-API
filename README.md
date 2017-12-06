@@ -1,5 +1,7 @@
 # event-statistics-REST-API
-Generate and return event statistics through HTTP with REST API using Python
+Generate and return event statistics through HTTP with REST API
+
+Programming language: Python
 
 The purpose of this assignment was to generate statistics from a user log that gave ratings of movies 
 between January 9, 1995 and March 31, 2015 and return that data through HTTP. The data was collected 
