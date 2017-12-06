@@ -3,9 +3,8 @@ Generate and return event statistics through HTTP with REST API
 
 The purpose of this assignment was to generate statistics from a log of users that gave ratings of movies 
 between January 9, 1995 and March 31, 2015 and return that data through HTTP. The data was collected 
-from MovieLens which is a movie recommendation service which is included as rating.csv
-and can additionally be found at https://grouplens.org/datasets/movielens/ or 
-https://www.kaggle.com/grouplens/movielens-20m-dataset (use the rating.csv file).
+from MovieLens which is a movie recommendation service and can be found at https://grouplens.org/datasets/movielens/ or 
+can be downloaded at https://www.kaggle.com/grouplens/movielens-20m-dataset (use the rating.csv file).
 However, due to size restrictions of github, a smaller version called rating_small.csv is attached. 
 The generated statistics tracked the events and returned standard deviation, average load per year, minimum year, and maximum year.
 The results were then returned through HTTP in JSON using a REST API which was built using Flask. 
