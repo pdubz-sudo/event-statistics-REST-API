@@ -25,9 +25,13 @@ Run the code with the following command
 To return the results you just have to open a web browser (preferably Chrome) and write one of the following in the address bar:
 
 http://127.0.0.1:5000/statistics
+
 http://127.0.0.1:5000/statistics/loads
+
 http://127.0.0.1:5000/statistics/loads/stddev
+
 http://127.0.0.1:5000/statistics/loads/min
+
 http://127.0.0.1:5000/statistics/loads/max
 
 
