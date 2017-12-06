@@ -3,7 +3,7 @@ from collections import defaultdict
 from flask import Flask, jsonify, make_response
 
 
-df = pd.read_csv('rating.csv')
+df = pd.read_csv('rating_small.csv')
 
 ### memory usage and some quick stat info
 # df.info(memory_usage="deep")
