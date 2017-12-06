@@ -1,2 +1,2 @@
 # event-statistics-REST-API
-Generate even statistics and return data through HTTP with REST API
+Generate and return even statistics through HTTP with REST API
