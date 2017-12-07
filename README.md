@@ -22,7 +22,7 @@ Run the code with the following command
     python stas_API.py
 
 
-To return the results you just have to open a web browser (preferably Chrome) and write one of the following in the address bar:
+Requests will return the generated data to the following endpoints:
 
 http://127.0.0.1:5000/statistics
 
@@ -35,8 +35,8 @@ http://127.0.0.1:5000/statistics/loads/min
 http://127.0.0.1:5000/statistics/loads/max
 
 
-Note: Years 1995 and 2015 were taken out of the generated statistics because they data was not collected for the whole year and year 1995 
-had almost no data entries.
+Note: Years 1995 and 2015 were taken out of the generated statistics because they data was not collected for the whole year and year 
+1995 had almost no data entries.
 
 
 
