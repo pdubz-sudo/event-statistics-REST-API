@@ -10,7 +10,7 @@ can be downloaded at https://www.kaggle.com/grouplens/movielens-20m-dataset (use
 However, due to size restrictions of github, a smaller version called rating_small.csv is attached. 
 The generated statistics tracked the events and returned standard deviation, average load per year, minimum year, and maximum year.
 The results were then returned through HTTP in JSON using a REST API which was built using Flask.
-*Note: there is a graph that will pop-up. The graph window MUST be closed in order to continue the code and make the API.
+Note: there is a graph that will pop-up. The graph window MUST be closed in order to continue the code and make the API.
 
 The code is written in Python. To run the program you can use must install pandas, matplotlib, collections, and Flask
 with the following commands:
