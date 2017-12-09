@@ -9,17 +9,20 @@ from MovieLens which is a movie recommendation service and can be found at https
 can be downloaded at https://www.kaggle.com/grouplens/movielens-20m-dataset (use the rating.csv file).
 However, due to size restrictions of github, a smaller version called rating_small.csv is attached. 
 The generated statistics tracked the events and returned standard deviation, average load per year, minimum year, and maximum year.
-The results were then returned through HTTP in JSON using a REST API which was built using Flask. 
+The results were then returned through HTTP in JSON using a REST API which was built using Flask.
+*Note: there is a graph that will pop-up. The graph window MUST be closed in order to continue the code and make the API.
 
 The code is written in Python. To run the program you can use must install flask and pandas with the following commands
 
     pip install pandas
+    pip install matplotlib.pyplot
+    pip install collections
     pip install flask
 
 
 Run the code with the following command
 
-    python stas_API.py
+    python code_stas_API.py
 
 
 Requests will return the generated data to the following endpoints:
