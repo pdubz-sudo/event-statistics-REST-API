@@ -12,10 +12,11 @@ The generated statistics tracked the events and returned standard deviation, ave
 The results were then returned through HTTP in JSON using a REST API which was built using Flask.
 *Note: there is a graph that will pop-up. The graph window MUST be closed in order to continue the code and make the API.
 
-The code is written in Python. To run the program you can use must install flask and pandas with the following commands
+The code is written in Python. To run the program you can use must install pandas, matplotlib, collections, and Flask
+with the following commands:
 
     pip install pandas
-    pip install matplotlib.pyplot
+    pip install matplotlib
     pip install collections
     pip install flask
 
