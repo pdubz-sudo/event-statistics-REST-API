@@ -79,6 +79,7 @@ plt.xlabel("Year")
 plt.ylabel("Events Load")
 plt.title("Year vs Events Load --CLOSE WINDOW TO CONTINUE CODE--")
 plt.show()
+# Must close graph window to continue code and make API
 
 ##########################################################
 ##########################################################
