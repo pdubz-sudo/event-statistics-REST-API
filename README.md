@@ -3,17 +3,18 @@ Generate and return event statistics through HTTP with REST API
 
 Programming language: Python
 
-The purpose of this assignment was to generate statistics from a user log that gave ratings of movies 
-between January 9, 1995 and March 31, 2015 and return that data through HTTP. The data was collected 
-from MovieLens which is a movie recommendation service and can be found at https://grouplens.org/datasets/movielens/ 
-(download link: http://files.grouplens.org/datasets/movielens/ml-20m.zip) or can be downloaded at 
-https://www.kaggle.com/grouplens/movielens-20m-dataset.
-However, due to size restrictions of github, a smaller version called rating_small.csv is attached. 
-The generated statistics tracked the events and returned standard deviation, average load per year, minimum year, and maximum year.
-The results were then returned through HTTP in JSON using a REST API which was built using Flask.
+The purpose of this assignment was to generate statistics from a user log that gave ratings of movies between January 9, 1995 and 
+March 31, 2015 and return that data through HTTP in JSON using a REST API which was built using Flask. The generated statistics tracked 
+the events and returned standard deviation, average load per year, minimum year, and maximum year.
 
-*Note: there is a graph that will pop-up. The graph window MUST be closed in order to continue the code and make the API. 
-Additionally, years 1995 and 2015 were taken out of the generated statistics because the data was not collected for the whole year and year 1995 had almost no data entries.
+The data was collected from MovieLens which is a movie recommendation service https://grouplens.org/datasets/movielens/. 
+However, due to size restrictions of github, a smaller version called rating_small.csv is attached to this reposoitory.
+The full dataset can be download from either http://files.grouplens.org/datasets/movielens/ml-20m.zip or 
+https://www.kaggle.com/grouplens/movielens-20m-dataset. 
+
+*Note: there is a pop-up chart that MUST be closed in order to continue the code and make the API. 
+Additionally, years 1995 and 2015 were taken out of the generated statistics because the data was not collected for the whole year and 
+year 1995 had almost no data entries; evident when the code is run againg the full dataset.
 
 The code is written in Python. To run the program you can use must install pandas, matplotlib, collections, and Flask
 with the following commands:
